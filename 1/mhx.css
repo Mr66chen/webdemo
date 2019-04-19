@@ -1,0 +1,532 @@
+/*清空所有默认的样式,设置初始化*/
+body,div,ul,li,form,input,a,img,p{
+    margin:0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "微软雅黑";
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 1920px;
+    height: 5966px;
+    background: rgba(9, 184, 218, 1);
+    margin: 0 auto;
+
+}
+
+.top {
+    height: 1044px;
+    position: relative;
+
+}
+
+.content {
+    height: 1640px;
+    background-color: #fff;
+    position: relative;
+}
+
+.growth {
+    height: 748px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.woman {
+    height: 764px;
+    position: relative;
+}
+
+.coor {
+    height: 826px;
+    background-color: #FFBF3F;
+}
+
+.bottom {
+    height: 721px;
+   
+    position: relative;
+}
+
+.logo {
+    width: 244px;
+    height: 54px;
+    margin-left: 180px;
+    margin-top: 76px;
+}
+
+.group {
+    width: 907px;
+    height: 488px;
+    margin-left: 535px;
+    margin-top: 77px;
+}
+  .show {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 197px;
+    margin-top: 87px;
+}
+
+.show ul li {
+    display: block;
+    width: 150px;
+    float: left;
+    text-align: center;
+
+
+}
+
+.show ul li a {
+    color: #000000;
+    font-size: 22px;
+
+}
+
+.show ul li a:link
+{
+    color: #fff;
+}
+.show ul li a:visited
+{
+    color: #000000;
+}
+.show ul li a:hover {
+    color: #fff;
+}
+.show ul li a:active {
+    color: #fff;
+} 
+.top-content {
+    margin-left:362px;
+    margin-top: 289px; 
+}
+.top-en {
+    font-size: 29px;
+    color: #fff;
+}
+.top-ch {
+    font-size: 72px;
+    color: #fff;
+    margin-left: 10px;
+    margin-bottom:19px;
+    
+}
+.top-box {
+    border-radius:4px;
+    font-size: 16px;
+    padding: 6px 12px;
+    background: #000000;
+    color: #fff;
+    margin-left: 179px;
+}
+.top-ul {
+    margin-top: 19px; 
+    margin-left: 20px;
+}
+.top-ul ul li {
+    list-style: disc;
+    color: #fff;
+    font-size:14px;
+    letter-spacing: 2px;
+}
+.top-baby {
+    float: right;
+}
+.baby-img {
+    width: 299px;
+    height: 459px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 345px;
+    margin-right: 392px;
+}
+.top-bottom {
+    width: 271px;
+    height: 49px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom:142px;
+    margin-right: 348px;
+}
+.content-title {
+    font-size: 52px;
+    color: #FDC72B;
+    text-align: center;
+    padding-top: 104px;
+}
+
+.content-sample {
+    margin-top: 80px;
+    margin-left: 520px;
+}
+
+.sample-title {
+    font-size: 40px;
+    color: #c0bfbf;
+    margin-bottom: 33px;
+}
+
+.content-sample ul li {
+    color: #666666;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 12px;
+    margin-left: 3px;
+}
+
+.content-sample ul li span {
+    color: #FDC72B;
+}
+
+.shan {
+    width: 346px;
+    height: 365px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 270px;
+    margin-right: 513px;
+}
+
+.search-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 682px;
+    margin-right: 355px;
+}
+
+.search {
+    width: 111px;
+    height: 118px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.search-text div {
+    color: #568AFA;
+    font-size: 14px;
+}
+
+.content-standard {
+    color: #09b8da;
+    font-size: 30px;
+    margin-left: 363px;
+    margin-top: 246px;
+}
+
+.underline {
+    width: 224px;
+    height: 1px;
+    background: #09b8da;
+    margin-top: 4px;
+}
+
+.square-title {
+    width: 1126px;
+    height: 60px;
+    background: #09b8da;
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+    color: #fff;
+    position: relative;
+}
+
+.square-content {
+    box-sizing: border-box;
+    width: 1126px;
+    height: 229px;
+    background: #fff;
+    border-left: 1px solid #09B8DA;
+    border-right: 1px solid #09B8DA;
+    padding: 24px 47px;
+    color: #09B8DA;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.content-content {
+    margin-left: 400px;
+    margin-top: 51px;
+}
+
+.down {
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -5px;
+    margin-right: 26px;
+}
+.gap {
+    margin-top: 10px;
+}
+
+.growth-left {
+    width: 734px;
+    height: 748px;
+    background: #FFBF3F;
+    float: left;
+    border-radius: 2px;
+}
+
+.growth-middle {
+    width: 810px;
+    height: 748px;
+    float: left;
+
+    margin-left: 13px;
+
+}
+
+.growth-right {
+    width: 354px;
+    height: 748px;
+    background: #FFBF3F;
+    float: right;
+}
+
+.growth-standard {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 362px;
+    margin-top: 72px;
+}
+
+.growth-underline {
+    width: 224px;
+    height: 1px;
+    background: #fff;
+    margin-top: 4px;
+}
+
+.bear {
+    width: 182px;
+    height: 307px;
+    margin-top: 159px;
+    margin-left: 387px;
+}
+
+.growth-square {
+    width: 186px;
+    height: 180px;
+    background: #FFBF3F;
+    float: left;
+}
+
+.growth-content {
+    width: 615px;
+    height: 180px;
+    background: #FFD47F;
+    float: right;
+}
+
+.growth-gap {
+    position: relative;
+    top: 10px;
+
+}
+
+.growth-gap2 {
+    position: relative;
+    top: 20px;
+}
+
+.growth-gap3 {
+    position: relative;
+    top: 30px;
+}
+
+.clock {
+    width: 57px;
+    height: 54px;
+    margin-top: 49px;
+    margin-left: 65px;
+}
+
+.clock-font {
+    text-align: center;
+    margin-top: 22px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.info-growth {
+    padding-left: 53px;
+    padding-right: 53px;
+    font-size: 14px;
+    color: #B57900;
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+
+.woman-standard {
+    overflow: hidden;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 360px;
+    margin-top: 71px;
+}
+
+.woman-underline {
+    width: 224px;
+    height: 1px;
+    background: #fff;
+    margin-top: 3px;
+}
+
+.left {
+    width: 28px;
+    height: 58px;
+    margin-left: 312px;
+    margin-right: 20px;
+    float: left;
+    margin-top: 234px;
+}
+
+.renwu {
+    width: 351px;
+    height: 555px;
+    vertical-align: middle;
+    margin-top: 30px;
+    float: left;
+    margin-right: 20px;
+}
+
+.woman-font {
+    margin-top: 30px;
+}
+
+.woman-font div {
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    margin-bottom: 3px;
+}
+
+.woman-table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.woman-table td {
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.renwu-you {
+    width: 28px;
+    height: 58px;
+    float: right;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    margin-right: 300px;
+    margin-top: -330px;
+}
+
+.coor-standard {
+   
+    color: #fff;
+    font-size: 30px;
+    padding-left: 360px;
+    padding-top: 74px;
+    
+}
+
+.coor-underline {
+    width: 224px;
+    height: 1px;
+    background: #fff;
+    margin-top: 4px;
+}
+.bottom-standard {
+
+    color: #fff;
+    font-size: 30px;
+    padding-left: 360px;
+    padding-top: 74px;
+
+}
+
+.bottom-underline {
+    width: 224px;
+    height: 1px;
+    background: #fff;
+    margin-top: 4px;
+    margin-bottom: 153px;
+    
+}
+.bottom-in {
+    display: block;
+    margin-left: 360px;
+    width: 395px;
+    height: 42px;
+    border-radius:21px;
+    margin-bottom: 11px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    
+}
+input::-webkit-input-placeholder {
+    color: #00BBDC;
+    font-size: 14px;
+}
+.bottom-submit {
+    margin-left: 457px;
+    width: 181px;
+    height: 45px;
+    border-radius: 22px;
+    margin-top: 15px;
+    font-size: 18px;
+    background: #FFBF3F;
+    color: #fff;
+    border: none;
+}
+.sao {
+    width: 144px;
+    height: 190px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 287px;
+    margin-right: 626px;
+}
+.bottom-bear{
+    width:185px;
+    height: 361px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 179px;
+    margin-right: 351px;
+}
+.underline-bo {
+    width:1900px;
+    height: 2px;
+    background: #000000;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+.tab-logo {
+    width: 246px;
+    height: 54px;
+    margin-left: 840px;
+    margin-top: 52px;
+}

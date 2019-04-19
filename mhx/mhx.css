@@ -1,0 +1,116 @@
+/*清空所有默认的样式,设置初始化*/
+body{ margin:0; padding: 0; font-family: tahoma,arial, "PingFang SC",'Hiragino Sans GB','\5b8b\4f53',sans-serif; }
+ul,li,a,p{ margin: 0; padding: 0; }
+ul,li{ list-style: none; }
+
+.corp-item-a{ display: none; }
+.corp-bg-a{ background-color: #09B8DA; }
+.corp-bg-b{ background-color: #FFBF3F; }
+.corp-item{ overflow: hidden; }
+.corp-item .wrapper{ max-width: 1920px; margin: 0 auto; }
+.corp-header{ height: 54px; padding: 76px 197px 0 180px; }
+.corp-header .logo{ width: 244px; }
+.corp-header .menu{ float: right; line-height: 54px; font-size: 22px; }
+.corp-header .menu li{ display: inline-block; margin-left: 35px; }
+.corp-header .menu a{ text-decoration: none; color: #000; }
+.corp-header .menu a:hover{ color: #fff; }
+.corp-header .menu .current a{ color: #fff; }
+
+.corp-header-main{ position: relative; box-sizing: border-box; margin-left: 18%; margin-right: 18%; }
+.corp-header-main .baby{ display: none; }
+.corp-header-main_content{ padding-top: 74px; }
+.corp-header-main_content .text-en{ font-size: 29px; color: #fff; }
+.corp-header-main_content .text-ch{ font-size: 72px; color: #fff; margin-left: 10px; margin-bottom:19px; }
+.corp-header-main_content .text-box{ border-radius:4px; font-size: 16px; padding: 6px 12px; background: #000000; color: #fff; margin-left: 179px; }
+.corp-adv-list{ margin-top: 19px;  margin-left: 20px; }
+.corp-adv-list li{ list-style: disc; color: #fff; font-size:14px; letter-spacing: 2px; }
+.corp-header-main_baby{ position: absolute; right: 0; top: 0; }
+.corp-header-main_baby .icon-baby{ display: block; width: 299px; }
+.corp-header-main_baby .icon-contact{ display: block; width: 271px; margin: 49px 0 0 72px; }
+@media (max-width: 1280px){
+  .corp-header{ padding: 38px 100px 0 90px; }
+  .corp-header-main{ margin-left: 10%; margin-right: 10%; }
+  .corp-header-main_baby .icon-baby{ width: 240px; }
+  .corp-header-main_baby .icon-contact{ width: 216px; }
+}
+
+/* 合作标准政策 */
+.corp-detail-title{ padding: 104px 0 0 0; font-size: 52px; color: #FDC72B; text-align: center; }
+.corp-detail-profit{ margin: 80px auto 0; max-width: 884px; overflow: hidden; }
+.corp-detail-profit .sample{ float: left; }
+.corp-detail-profit .sample-title{ margin-bottom: 33px; font-size: 40px; color: #C0BFBF; }
+.corp-detail-profit .sample .item{ color: #666666; font-size: 22px; line-height: 30px; margin-bottom: 12px; margin-left: 3px; }
+.corp-detail-profit .sample .item .value{ color: #FDC72B; }
+.corp-detail-profit .icon-box{ position: relative; float: right; padding-bottom: 196px; padding-right: 140px; }
+.corp-detail-profit .icon-box .icon{ width: 346px; }
+.corp-detail-profit .icon-box .search-text{ position: absolute; right: 0; bottom: 0; font-size: 14px; text-align: center; color: #568AFA; }
+.corp-detail-profit .icon-box .search-text .icon-search{ width: 110px; margin-bottom: 10px; }
+
+.corp-detail-rule{ max-width: 1163px; width: 100%; margin: 11px auto 0; }
+.corp-detail-rule_title{ display: inline-block; margin-bottom: 50px; padding-right: 45px; padding-bottom: 3px; border-bottom: 1px solid #09B8DA; color: #09b8da; font-size: 30px; }
+.corp-detail-rule .wrapper{ margin-top: 50px; padding: 0 37px; }
+.corp-rule-item{ width: 100%; margin-bottom: 8px; }
+.corp-rule-item .content{ box-sizing: border-box; background: #fff; border: 1px solid #09B8DA; border-top-width: 0; padding: 24px 47px; line-height: 26px; color: #09B8DA; font-size: 14px; }
+.corp-rule-item.active{ margin-bottom: 0; }
+.corp-rule-item .title{ position: relative; height: 60px; line-height: 60px; background: #09b8da; text-align: center; font-size: 24px; color: #fff; }
+
+/* 合作成长体系 */
+.growth-panel{ margin-top: 70px; }
+.growth-detail{ height: 748px; }
+.growth-detail-left{ box-sizing: border-box; width: 38%; height: 748px; padding-right: 147px; padding-top: 72px; background: #FFBF3F; float: left; border-radius: 2px; text-align: right; }
+.growth-detail-left .title{ box-sizing: border-box; border-bottom: 1px solid #fff; padding: 0 45px 3px 0; color: #fff; font-size: 30px; }
+.growth-detail-left .bear{ width: 182px; margin-right: 20px; margin-top: 136px; }
+.growth-detail-middle{ box-sizing: border-box; width: 43%; float: left; padding: 0 13px; background-color: #fff; }
+.growth-detail-middle_item{ position: relative; margin-bottom: 10px; padding-left: 196px; }
+.growth-detail-middle_item .header{ width: 186px; height: 180px; background-color: #FFBF3F; position: absolute; left: 0; top: 0; text-align: center; font-size: 14px; color: #fff; }
+.growth-detail-middle_item .header .name{ font-size: 14px; color: #fff; }
+.growth-detail-middle_item .content{ position: relative; display: table-cell; width: 100%; height: 180px; background-color: #FFD47F; padding: 0 53px; vertical-align: middle; font-size: 14px; color: #B57900; }
+.growth-detail-middle_item .content .info-growth{ display: inline-block; vertical-align: middle; }
+.growth-detail-right{ width: 19%; height: 748px; background: #FFBF3F; float: right; }
+
+/* 加盟案例 */
+.corp-eg{ box-sizing: border-box; height: 764px; padding: 70px 0 58px; }
+.corp-eg-wrapper{ max-width: 1300px; margin: 0 auto; }
+.corp-eg-swiper{ position: relative; max-width: 1245px; margin: 0 auto; padding: 0 50px; overflow: hidden; }
+.corp-eg-swiper .thumb{ float: left; height: 555px; margin-right: 20px; }
+.corp-eg-title{ display: inline-block; margin-bottom: 32px; margin-left: 50px; border-bottom: 1px solid #fff; padding: 0 160px 3px 0; font-size: 30px; color: #fff; }
+.corp-eg-swiper .swiper-button-next{ background-image: url("./imgs/right.png"); }
+.corp-eg-swiper .swiper-button-prev{ background-image: url("./imgs/left.png"); }
+
+/* 加盟合作 */
+.corp-process{ max-width: 1255px; padding: 74px 0 140px; margin: 0 auto; }
+.corp-process-title{ display: inline-block; margin-bottom: 77px; border-bottom: 1px solid #fff; padding: 0 160px 3px 0; color: #fff; font-size: 30px; }
+.corp-process .banner{ display: block; width: 907px; margin: 0 auto; }
+
+/* 合作意向 */
+.corp-form{ position: relative; max-width: 1209px; margin: 0 auto; padding: 72px 0 180px; }
+.corp-form-title{ display: inline-block; margin-bottom: 57px; border-bottom: 1px solid #fff; padding: 0 164px 3px 0; color: #fff; font-size: 30px; }
+.corp-form-wrapper{ overflow: hidden; }
+.corp-form-main{ width: 395px; margin-top: 96px; float: left; }
+.corp-form-main .value{ display: block; box-sizing: border-box; width: 395px; height: 42px; border-radius:21px; margin-bottom: 11px; padding-left: 20px; border: none; font-size: 16px; }
+.corp-form-main .value::-webkit-input-placeholder{ color: #00BBDC; font-size: 14px; }
+.corp-form-main .value:focus{ outline: none; }
+.btn-submit{ display: block; width: 181px; height: 45px; margin: 0 auto; border-radius: 22px; margin-top: 15px; font-size: 18px; background: #FFBF3F; color: #fff; border: none; }
+.corp-form-qr{ float: right; }
+.corp-form-qr .qrcode{ width: 144px; height: 190px; margin-right: 90px; vertical-align: middle; }
+.corp-form-qr .bear{ width:185px; height: 361px; vertical-align: middle; }
+
+/* copyright */
+.corp-copyright{ padding: 0 13px 0; }
+.corp-copyright .wrapper{ border-top: 2px solid #000; padding: 52px 0; }
+.corp-copyright .wrapper .icon{ display: block; width: 246px; margin: 0 auto; }
+
+.woman-standard{ overflow: hidden; color: rgba(255, 255, 255, 0.082); font-size: 30px; margin-left: 360px; margin-top: 71px; }
+.woman-underline{ width: 224px; height: 1px; background: #fff; margin-top: 3px; }
+.left{ width: 28px; height: 58px; margin-left: 312px; margin-right: 20px; float: left; margin-top: 234px; }
+.renwu{ width: 351px; height: 555px; vertical-align: middle; margin-top: 30px; float: left; margin-right: 20px; }
+.woman-font div{ font-size: 14px; color: #fff; line-height: 20px; margin-bottom: 3px; }
+.woman-table{ margin-top: 20px; border-collapse: collapse; }
+.woman-table td{ border: 1px solid #fff; text-align: center; color: #fff; font-size: 14px; box-sizing: border-box; }
+.renwu-you{ width: 28px; height: 58px; float: right; transform: rotate(180deg); -webkit-transform: rotate(180deg); margin-right: 300px; margin-top: -330px; }
+.coor-standard{ color: #fff; font-size: 30px; padding-left: 360px; padding-top: 74px; }
+.coor-underline{ width: 224px; height: 1px; background: #fff; margin-top: 4px; }
+.bottom-standard{ color: #fff; font-size: 30px; padding-left: 360px; padding-top: 74px; }
+.bottom-underline{ width: 224px; height: 1px; background: #fff; margin-top: 4px; margin-bottom: 153px; }
+.underline-bo{ width:1900px; height: 2px; background: #000000; border-radius: 2px; margin: 0 auto; }
+.tab-logo{ width: 246px; height: 54px; margin-left: 840px; margin-top: 52px; }
